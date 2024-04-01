@@ -1,0 +1,102 @@
+.container {
+    height: 94vh;
+    box-sizing: border-box;
+    padding: 25px 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.navbar_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.logo img {
+    width: 35px;
+    height: 35px;
+}
+
+.hurray button:hover {
+    background-color: rgb(110, 31, 170);
+}
+
+.hurray {
+    box-sizing: border-box;
+    border: 2px solid grey;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    gap: 10px;
+    align-items: center;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.hurray img {
+    width: 30%;
+}
+
+.hurray button {
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(78, 1, 78);
+    color: #fff;
+}
+
+.mobile_header {
+    display: none;
+    background-color: rgb(98, 26, 153);
+    color: #fff;
+    padding: 10px;
+}
+
+@media (width<=685px) {
+
+    .mobile_header {
+        display: block;
+    }
+
+    .navbar_container {
+        display: none;
+    }
+
+    .container {
+        height: 85vh;
+        padding: 20px 20px;
+    }
+
+    .pcfooter {
+        display: none;
+    }
+
+
+    .hurray {
+        padding: 10px;
+        text-align: center;
+        margin: auto;
+    }
+
+
+}

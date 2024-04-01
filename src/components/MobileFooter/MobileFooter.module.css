@@ -1,0 +1,53 @@
+.mobilefooter {
+    display: none;
+    box-sizing: border-box;
+    position: fixed;
+    bottom: 0;
+    padding: 5px 20px;
+    justify-content: space-between;
+    width: 100%;
+    border-top: 2px solid rgb(222, 222, 222);
+    background-color: #fff;
+}
+
+.mobilefooter button {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border: none;
+    background-color: #fff;
+}
+
+.smallicon {
+    width: 30px;
+    height: 30px;
+}
+
+.cartcount {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 18px;
+    height: 18px;
+    background-color: rgb(89, 232, 89);
+    border-radius: 50%;
+    color: #fff;
+    position: absolute;
+    top: -2px;
+    right: 2px;
+}
+
+.cartcount P {
+    font-size: 10px;
+}
+
+@media (width<=450px) {
+
+    .mobilefooter {
+        display: flex;
+    }
+}

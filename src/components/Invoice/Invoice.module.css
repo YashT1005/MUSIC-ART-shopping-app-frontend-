@@ -1,0 +1,179 @@
+.container {
+    min-height: 88vh;
+    box-sizing: border-box;
+    padding: 25px 50px 0 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.navbar_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.login_navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.viewcart_btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    padding: 6px 15px;
+    background-color: green;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    height: 35px;
+}
+
+.cart_icon {
+    width: 20px;
+    height: 20px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.logo img {
+    width: 35px;
+    height: 35px;
+}
+
+.back_btn {
+    color: #fff;
+    background-color: rgb(73, 18, 116);
+    border: none;
+    padding: 8px 0;
+    width: 130px;
+    border-radius: 5px;
+}
+
+.invoice_container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.heading {
+    margin: auto;
+}
+
+.invoice_box {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.individual_invoice {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left {
+    display: flex;
+    color: grey;
+    gap: 15px;
+    width: 40%;
+}
+
+.receipt {
+    width: 40px;
+    height: 40px;
+}
+
+.address {
+    font-size: 15px;
+}
+
+.view_btn {
+    color: #fff;
+    background-color: rgb(73, 18, 116);
+    border: none;
+    padding: 5px 0;
+    height: 35px;
+    width: 130px;
+    border-radius: 5px;
+}
+
+.mobile_header {
+    display: none;
+    background-color: rgb(98, 26, 153);
+    color: #fff;
+    padding: 10px;
+}
+
+.back_btn_mobile {
+    display: none;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    border: none;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.small_icon {
+    width: 20px;
+    height: 20px;
+}
+
+@media (width<=685px) {
+
+    .mobile_header {
+        display: block;
+    }
+
+    .header {
+        display: none;
+    }
+
+    .back_btn_mobile {
+        display: flex;
+    }
+
+    .navbar_container {
+        display: none;
+    }
+
+    .back_btn {
+        display: none;
+    }
+
+    .container {
+        padding: 20px 20px;
+    }
+
+    .view_btn {
+        width: 110px;
+        border-radius: 20px;
+    }
+
+    .left {
+        width: 60%;
+        align-items: center;
+    }
+
+}
